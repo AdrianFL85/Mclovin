@@ -1,0 +1,81 @@
+$primary-color: #a1232b;            // Rojo corporativo FL Colombia
+$primary-hover-color: #7e1b23;      // Rojo más oscuro para hover
+$success-color: #4b4f52;            // Gris metálico oscuro
+$success-hover-color: #3a3e41;      // Hover gris más profundo
+$title-color: #ffffff;              // Titulares en blanco
+$bg-color: #1f2a3d;                 // Azul corporativo oscuro
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  color: #d1d5da;                   // Gris claro para textos
+}
+
+.content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;        // Fondo blanco para destacar sobre el azul
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+  border-radius: 8px;   
+  text-align: center;
+  border-top: 4px solid $primary-color;  // Línea superior en rojo corporativo
+}
+
+h1, h2, h3 {
+  color: $primary-color;            // Titulares en rojo FL Colombia
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;   // Línea de separación entre filas
+
+  th{
+    background-color: $primary-color; // Encabezados de tabla en rojo corporativo
+    color: #000;              // Texto de encabezados en blanco
+  };
+}
+
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px 0;
+  border-radius: 20px;
+  background-color: $primary-color;
+  color: #ffffff;              // Texto de enlaces en blanco
+  text-decoration: none;  
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+  color: $primary-hover-color;
+}
+
+button {
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: $primary-hover-color;
+}
+table th {
+  color: $primary-color; /* Rojo corporativo para encabezados */
+}
+
+table td {
+  color: #000000; /* Negro para valores */
+}
