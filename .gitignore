@@ -1,0 +1,39 @@
+ 
+# ==== Archivos del sistema / IDE ====
+*.log
+*.tmp
+*.old
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==== Python / Flask ====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite
+*.db
+*.env
+instance/
+.env.*
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# ==== Node / JS (si usas algo de frontend con npm) ====
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ==== Otros ====
+*.swp
+*.swo
+*.coverage
+*.pytest_cache/
